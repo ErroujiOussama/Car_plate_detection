@@ -1,26 +1,86 @@
-# Car_plate_detection
-# My Awesome Project
-### A simple project to demonstrate how to write a GitHub README
+## 🚗 Car Detection & License Plate Extraction (OpenCV + Python)
 
-Welcome to my project! This is a sample README file to help you understand how to format:
+A complete computer vision project that detects moving vehicles in a video stream and extracts their license plates. Built with OpenCV and background subtraction techniques.
 
-- A title
-- A subtitle
-- Some descriptive text
-- An image
+---
 
-Feel free to fork this repository and customize it to your needs.
+### 📸 Overview
 
-## Example Image
+This project uses traditional image processing methods to:
 
-![Project Demo](https://via.placeholder.com/600x300.png?text=Demo+Image)
+* Detect and track moving vehicles using background subtraction.
+* Apply contour analysis to localize each vehicle.
+* Extract license plate areas for further processing.
 
-## How to Use
+You can process any input video (`.mp4`) and analyze frames in real time.
 
-1. Clone the repository
-2. Customize the code and the README
-3. Push your changes
+---
 
-## License
+### ✨ Features
 
-This project is licensed under the MIT License.
+* ✅ Vehicle detection with contour filtering
+* ✅ Line-crossing-based vehicle counting
+* ✅ License plate region extraction using bounding boxes
+* ✅ Preprocessing for plate clarity
+* 🧩 Easily extendable for OCR (e.g., Tesseract or CRNN)
+
+---
+
+### 🗂 Project Structure
+
+```
+📁 CarDetection-PlateExtraction/
+│
+├── CarsDetection and plate extraction(1).ipynb  # Main notebook
+├── video.mp4                                    # Input video
+├── images/
+│   ├── original.png                             # [placeholder]
+│   ├── mask.png                                 # [placeholder]
+│   └── plate_example.png                        # [placeholder]
+└── README.md
+```
+
+---
+
+### 📦 Requirements
+
+Install dependencies using pip:
+
+```bash
+pip install opencv-python opencv-contrib-python numpy
+```
+
+---
+
+### ▶️ How to Run
+
+1. Launch the notebook:
+
+```bash
+jupyter notebook "CarsDetection and plate extraction(1).ipynb"
+```
+
+2. Ensure `video.mp4` is present in the same directory.
+3. Run all cells to begin processing.
+
+---
+
+### 🔍 Pipeline Summary
+
+1. **Read Video:** Load frame-by-frame.
+2. **Grayscale & Blur:** Preprocessing to reduce noise.
+3. **Background Subtraction:** Isolate moving objects.
+4. **Morphological Filtering:** Improve segmentation quality.
+5. **Contour Detection:** Find potential vehicles.
+6. **Vehicle Counting:** Count each car that crosses a defined line.
+7. **License Plate Detection:** Extract ROIs from detected vehicle areas.
+
+---
+
+### 🧪 Sample Results
+
+| Input Frame                   | Detection Mask           | Plate ROI                          |
+| ----------------------------- | ------------------------ | ---------------------------------- |
+| ![frame](images/original.png) | ![mask](images/mask.png) | ![plate](images/plate_example.png) |
+
+---
