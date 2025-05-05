@@ -35,7 +35,6 @@ You can process any input video (`.mp4`) and analyze frames in real time.
 ├── video.mp4                                    # Input video
 ├── images/
 │   ├── original.png                             # [placeholder]
-│   ├── mask.png                                 # [placeholder]
 │   └── plate_example.png                        # [placeholder]
 └── README.md
 ```
