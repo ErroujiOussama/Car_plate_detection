@@ -89,5 +89,7 @@ jupyter notebook "CarsDetection and plate extraction(1).ipynb"
 | ![frame](images/plate1.png) | 
 | ----------------------------- |
 | ![frame](images/plate2.png) |
+| ----------------------------- |
+| ![frame](images/prediction.png) |
 
 
