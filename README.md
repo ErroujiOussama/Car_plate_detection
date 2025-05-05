@@ -32,7 +32,6 @@ You can process any input video (`.mp4`) and analyze frames in real time.
 📁 CarDetection-PlateExtraction/
 │
 ├── CarsDetection and plate extraction(1).ipynb  # Main notebook
-├── video.mp4                                    # Input video
 ├── images/
 │   ├── original.png                             # [placeholder]
 │   └── plate_example.png                        # [placeholder]
