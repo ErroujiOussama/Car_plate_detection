@@ -79,8 +79,8 @@ jupyter notebook "CarsDetection and plate extraction(1).ipynb"
 
 ### 🧪 Sample Results
 
-| Input Frame                   | Plate ROI                          |
-| ----------------------------- | ---------------------------------- |
-| ![frame](images/original.png) | ![plate](images/plate.png) |
+| Input Frame & plate detection |
+| ----------------------------- |
+| ![frame](images/original.png) |
 
 ---
