@@ -21,7 +21,7 @@ This project uses traditional image processing methods to:
 * ✅ Line-crossing-based vehicle counting
 * ✅ License plate region extraction using bounding boxes
 * ✅ Preprocessing for plate clarity
-* 🧩 Easily extendable for OCR (e.g., Tesseract or CRNN)
+* ✅ OCR for plate text extraction
 
 ---
 
