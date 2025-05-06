@@ -9,10 +9,9 @@ A complete computer vision project that detects moving vehicles in a video strea
 This project uses traditional image processing methods to:
 
 * Detect and track moving vehicles using background subtraction.
-* Apply contour analysis to localize each vehicle.
+* Extract vehicules from images.
 * Extract license plate areas for further processing.
-
-You can process any input video (`.mp4`) and analyze frames in real time.
+* Use OCR to detect plate text
 
 ---
 
