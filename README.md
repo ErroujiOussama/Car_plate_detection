@@ -1,6 +1,6 @@
 ## 🚗 Car Detection & License Plate Extraction (OpenCV + Python)
 
-A complete computer vision project that detects moving vehicles in a video stream and extracts their license plates. Built with OpenCV and background subtraction techniques.
+A complete computer vision project that detects vehicles and extracts their license plates. Built with OpenCV and background subtraction techniques.
 
 ---
 
