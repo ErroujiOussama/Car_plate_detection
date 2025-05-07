@@ -71,7 +71,6 @@ jupyter notebook "CarsDetection and plate extraction(1).ipynb"
 3. **Background Subtraction:** Isolate moving objects.
 4. **Morphological Filtering:** Improve segmentation quality.
 5. **Contour Detection:** Find potential vehicles.
-6. **Vehicle Counting:** Count each car that crosses a defined line.
 7. **License Plate Detection:** Extract ROIs from detected vehicle areas.
 
 ---
